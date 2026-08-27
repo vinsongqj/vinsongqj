@@ -17,6 +17,7 @@ jobs:
           # Basic Options
           user: vinsongqj
           template: classic
+          base: header
           base_skip: yes
           # Monotone / Minimal Styling
           config_timezone: Asia/Kuala_Lumpur
