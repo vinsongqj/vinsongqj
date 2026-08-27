@@ -17,10 +17,10 @@ jobs:
           # Basic Options
           user: vinsongqj
           template: classic
-          
+          base = ""
           # Monotone / Minimal Styling
           config_timezone: Asia/Kuala_Lumpur
-          config_font: "Fira Code"
+          config_font: "JetBrains Mono"
           
           # Force a clean dark-monotone preset (or use "light" for white mode)
           use_pre_derived_theme: yes
