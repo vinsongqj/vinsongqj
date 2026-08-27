@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinsongqj&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages">
+  <img src="https://progress-bar.dev/70/?scale=100&title=Python&color=30363d&background-color=0d1117" width="100%">
 </p>
