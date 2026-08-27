@@ -25,7 +25,7 @@ jobs:
           
           # Force a clean dark-monotone preset (or use "light" for white mode)
           use_pre_derived_theme: yes
-          config_theme: "nord"
+          config_theme: "github-dark"
           
           # Custom Color Overrides (Pure Black/White/Gray Hex Codes)
           config_color_background: "0d1117" # Deep background
@@ -36,6 +36,4 @@ jobs:
           # Minimal Plugins (Keep it simple)
           plugin_languages: yes
           plugin_languages_details: percentage
-          plugin_languages_ignored: html, css # optional, keep list short
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+  
