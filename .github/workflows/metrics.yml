@@ -14,23 +14,26 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Basic Options
+          # User info
           user: vinsongqj
+          
+          # Use markdown/plugin-only mode instead of classic dashboard
+          template: markdown
+          base: ""
+          
           # Monotone / Minimal Styling
           config_timezone: Asia/Kuala_Lumpur
           config_font: "JetBrains Mono"
-          
-          # Force a clean dark-monotone preset (or use "light" for white mode)
           use_pre_derived_theme: yes
           config_theme: "github-dark"
           
-          # Custom Color Overrides (Pure Black/White/Gray Hex Codes)
-          config_color_background: "0d1117" # Deep background
-          config_color_text: "f0f6fc"       # Crisp white text
-          config_color_primary: "8b949e"    # Monotone muted gray for accents
-          config_color_border: "30363d"     # Subtle border color
+          # Custom Colors
+          config_color_background: "0d1117"
+          config_color_text: "f0f6fc"
+          config_color_primary: "8b949e"
+          config_color_border: "30363d"
 
-          # Minimal Plugins (Keep it simple)
+          # Only Language Plugin Enabled
           plugin_languages: yes
           plugin_languages_details: percentage
-  
+          plugin_languages_limit: 8
